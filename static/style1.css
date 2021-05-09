@@ -1,0 +1,35 @@
+
+.cities ul li{
+    list-style-type: none;
+    display: inline;
+}
+.cities ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid black;
+    transition: 0.6ms;
+}
+.cities ul li a:hover{
+    background:#42444A;
+    color: rgb(169, 181, 184);
+}
+.resources ul li{
+    list-style-type: none;
+    display: inline;
+    top: 50px;
+}
+.resources ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid black;
+    transition: 0.6ms;
+}
+.resources ul li a:hover{
+    background:#42444A;
+    color: rgb(169, 181, 184);
+}
+.heading{
+    top:50px;
+}

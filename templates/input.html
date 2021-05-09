@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+
+    <style>
+        body{
+            background-color: #dfdddb;
+            margin: 35px 20px;
+        }
+        p{
+            font-size: 20px;
+            color:#36393f
+        }
+        input[type="text"]{
+            width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;  
+  font-size: 20px;  
+        }
+
+    #resource{
+        width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 20px;
+    }
+    input[type='submit']{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px; 
+
+}
+
+    input[type="submit"]:hover{
+
+        background-color: #F4B194;
+
+    }
+
+    </style>
+</head>
+<body>
+
+    <form action="#" method="post">
+        <p>Enter City Name: </p>
+        <p><input type="text" name="city" ></p>
+        <p>Select the required resource:</p>
+
+        <select name="resource" id="resource">
+            <option value="">--Select a Resource--</option>
+            <option value="Oxygen Bed">Oxygen Bed</option>
+            <option value="Plasma">Plasma</option>
+            <option value="Oxygen Cylinder">Oxygen Cylinder</option>
+            <option value="Oxygen Concenterator">Oxygen Concenterator</option>
+            <option value="Ventilator">Ventilator</option>
+            <option value="Covid test">Covid test</option>
+            <option value="Remdesivir">Remdesivir</option>
+            <option value="Favipiravir">Favipiravir</option>
+        </select>
+        </p>
+        <br>
+        <p><input type="submit" value="SUBMIT">
+        </p>
+
+
+    </form>
+    
+</body>
+</html>

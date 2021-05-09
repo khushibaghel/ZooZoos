@@ -1,0 +1,361 @@
+/* Rectangle 1 */
+
+nav ul{
+    float: right;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid black;
+    transition: 0.6ms;
+}
+nav ul li a:hover{
+    background:#42444A;
+    color: rgb(169, 181, 184);
+}
+nav img{
+    width: 180px;
+    height: 50px;
+}
+.Button{
+position: absolute;
+width: 520px;
+height: 102px;
+left: 126px;
+top: 498px;
+}
+.Button a{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+
+}
+.Button a:hover{
+    background:#42444A;
+    color: rgb(169, 181, 184);   
+}
+
+.main section{ 
+
+position: absolute;
+width: 610px;
+height: 84px;
+left: 120px;
+top: 199px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 75px;
+line-height: 103.9%;
+/* or 78px */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+
+color: #42444A;
+}
+
+
+
+/* Your one stop for taking care of you and your loved ones at home in these tough times */
+
+.main section1{ 
+position: absolute;
+width: 520px;
+height: 102px;
+left: 126px;
+top: 310px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+}
+
+/* Learn more */
+
+
+
+
+.main{
+    background: url(main.jpg);
+    position: relative;
+width: 100%;
+height: 100vh;
+/*left: 96px;
+top: -18px;*/
+background-position: center;
+background-size: cover;
+
+}
+.pre1{
+    background: url(5886.jpg);
+position:absolute ;
+width: 50%;
+height: 50vh;
+background-position:center;
+background-position-y: center;
+background-position-x: right;
+background-size: cover;
+}
+.pre2{
+    background: url(5797.jpg);
+position: relative;
+width: 50%;
+height: 50vh;
+left: 589px;
+top: 167px;
+background-position-y: center;
+background-position-x: left;
+background-size: cover;
+}
+.pre3{
+    background: url(6333.jpg);
+position:relative ;
+width: 50%;
+height: 50vh;
+background-position:center;
+top: 240px;
+left: 120px;
+background-size: cover;
+}
+.pre4{
+    background: url(10720.jpg);
+position: relative;
+left: 589px;
+top: 250px;
+width: 50%;
+height: 50vh;
+background-position:center;
+background-size: cover;
+}
+
+
+
+.Heading1{position: absolute;
+width: 336px;
+height: 71px;
+left: 616px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 21px;
+line-height: 25px;
+display: flex;
+align-items: center;
+
+color: #42444A;
+
+}
+
+/* These are hard times for eeryone, we know you might me worried but the key to get through these tough times is to not panic and get better one step at a time */
+
+
+.Para1{
+    position: absolute;
+width: 416px;
+height: 171px;
+left: 616px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #42444A;
+}
+
+
+/* Self Quarantine! */
+
+
+.Heading2{position: absolute;
+width: 336px;
+height: 71px;
+left: -458px;
+top: 120px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 21px;
+line-height: 25px;
+display: flex;
+align-items: center;
+
+color: #42444A;
+
+}
+
+/* The first step should be to isolate the affected person, preferably home quarantine them in a seperate room and always remember we are all in this together! */
+
+
+.Para2{position: absolute;
+width: 416px;
+height: 171px;
+left: -458px;
+top:120px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #42444A;
+}
+.Heading3{position: absolute;
+width: 336px;
+height: 71px;
+left: 616px;
+top: 50px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 21px;
+line-height: 25px;
+display: flex;
+align-items: center;
+
+color: #42444A;
+
+}
+
+/* Regularly spaced out checkup of oxygen(Spo2), blood pressure and temperature of the affected person should be tabulated three times a day */
+
+
+.Para3{position: absolute;
+width: 416px;
+height: 171px;
+left: 616px;
+top: 50px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #42444A;
+}
+
+
+/* Stay hydrated, Eat healthy! */
+html{
+    scroll-behavior: smooth;
+}
+
+.Heading4{position: absolute;
+width: 336px;
+height: 71px;
+left: -458px;
+top: 0px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 21px;
+line-height: 25px;
+display: flex;
+align-items: center;
+
+color: #42444A;
+
+}
+
+/* buiding your immunity is very important, always stay hydrated and take the nutritions prescribed by your doctors. Don’’t forget to take steam at regular intervals. */
+
+
+.Para4{position: absolute;
+width: 416px;
+height: 171px;
+left: -458px;
+top: 178x;
+
+font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #42444A;
+}
+
+.heading{
+    align-items: center;
+    color:#42444A;
+    text-align: center;
+}
+
+.about img{
+    width: 30%;
+    height: auto;
+    align-items: center;
+
+}
+
+/* Home About Us Contacts */
+
+
+/*position: absolute;
+width: 476px;
+height: 300px;
+left: 120px;
+top: -41px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 30px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* Have a Covid +ve patient at home? Don’t worry we are here to help */
+
+
+/*position: absolute;
+width: 790px;
+height: 120px;
+left: 181px;
+top: 105px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 41px;
+line-height: 61px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #42444A;

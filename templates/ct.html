@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Covid Tracker</title>
+        <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style.css')}}">
+
+        <style>
+            .body{
+                align-items: center;
+                margin: 30px;
+            }
+            #ab img {
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+            <div class="Logo"></div>
+                <img src="{{url_for('static',filename='logo.png')}}">
+                <ul>
+                    <li><a href="#ab">About</a></li>
+                    <li><a href="#Pc">Precaution</a></li>
+                    <li><a class="nav" id="test" href="/test" >Test</a></li>
+                </ul>
+            </div>
+                <div class="main">
+                    <section>
+                        <h3>Covid Tracker</h3> 
+                    </section>
+                    <section1>
+                        <h2>Your one stop for finding filtered tweets and leads for various Covid Resources </h2>
+                    </section1>
+                </div>
+                <div class="Button">
+                        <a href ="#" >Learn More</a>
+                        
+                </div>
+                <br>
+                <br>
+
+
+                <div class="heading" >
+                    <h1><b>Have a Covid Positive Patient at home and need resources?</b>
+                    </h1>
+                    <h2>Don't worry we are here to help</h2>
+                    <p>With our Covid teacker tool you can filter all the relevent tweets and leads, by searching specefically for your City and particular resource requirement, at one place</p>
+                    <br>
+                    <br>
+                    <br>
+
+
+
+                </div>
+
+
+
+            <div class="Precaution" id="Pc">
+                <section class="pre1">
+                    <p class="Heading1">Stay Safe,Stay home</p>
+                    <p class="Para1">These are hard times for everyone, we know you might me worried but the key to get through these tough times is to not panic and get better one step at a time</p>
+                </section>
+                <br><br><br><br><br>
+                <section class="pre2">
+                    <p class="Heading2">Self Quarantine!</p>
+                    <p class="Para2">The first step should be to isolate the affected person, preferably home quarantine them in a seperate room and always remember we are all in this together!</p>
+                </section>
+                <br><br><br>
+                <section class="pre3">
+                    <p class="Heading3"> Regular Oxygen and temp. checkup</p>
+                    <p class="Para3">Regularly spaced out checkup of oxygen(Spo2), blood pressure and temperature of the affected person should be tabulated three times a day</p>
+                </section>
+                <section class="pre4">
+                    <p class="Heading4">Stay hydrated, Eat healthy!</p>
+                    <p class="Para4"> buiding your immunity is very important, always stay hydrated and take the nutritions prescribed by your doctors. Don’’t forget to take steam at regular interval.</p>
+                </section>
+            </div>
+
+        
+            </nav>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br><br><br><br><br><br><br><br><br><br>
+
+
+            <hr>
+            <br>
+           <h1 align=center><b>Our Team</b></h1>
+                        <br>
+            <div class="about" id="ab" align=center>
+                <figure>
+                <img src="{{url_for('static',filename='khushi.jpeg')}}" alt="khushi" width=20%>
+                <figcaption align=center>Khushi Baghel</figcaption>
+            </figure>
+            <figure>
+                <img src="{{url_for('static',filename='avni.jpeg')}}" alt="avni" width=20%>
+                <figcaption>Avni Mittal</figcaption>
+            </figure>
+                <figure>
+                <img src="{{url_for('static',filename='khushboo.jpeg')}}" alt="khushboo" width=20%>
+                <figcaption>Khushboo Thakur</figcaption>
+            </figure>
+            </div>
+           
+        </header>
+
+
+
+        
+           
+    </body>
+</html>

@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container">
+        <h2>Enter Details:</h2>
+        <form action="/" method="POST">
+            <div class="mb-3">
+              <label for="Spo2" class="form-label">Email address</label>
+              <input type="text" name="Spo2" class="form-control" id="Spo2" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="Pulse" class="form-label">Password</label>
+              <input type="password" name="Pulse"class="form-control" id="Pulse">
+            </div>
+            <div class="mb-3">
+                <label for="Temp" class="form-label">Password</label>
+                <input type="password" name="Temp"class="form-control" id="Temp">
+              </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </div>
+
+    <div class="container my-3">
+        <h2>Your Table</h2>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">S.no</th>
+                <th scope="col">Day and Time</th>
+                <th scope="col">Spo2</th>
+                <th scope="col">Pulse</th>
+                <th scope="col">Temperature</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                  {% for table in alltable %} 
+                  <th scope="row">{{loop.index}}</th>
+                  <td>{{table.Daytime}}</td>
+                  <td>{{table.Spo2}}</td> 
+                  <td>{{table.Pulse}}</td> 
+                  <td>{{table.Temp}}</td>  
+                  {% endfor %}
+                
+            
+    
+              </tr>
+            </tbody>
+          </table>
+    </div>
+</body>
+</html>
